@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Confirmación de cuenta</title>
+    <link rel="icon" href="/public/img/logo.png" />
+    <link rel="stylesheet" href="/public/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <style>
+    .container { display: flex; width: 100%; min-height: auto; justify-content:
+    center; margin-top: 50px; } .info-farms { -webkit-box-shadow: 10px -5px 55px
+    -12px rgba(171, 171, 171, 1); -moz-box-shadow: 10px -5px 55px -12px
+    rgba(171, 171, 171, 1); box-shadow: 10px -5px 55px -12px rgba(171, 171, 171,
+    1); border-radius: 20px; background-color: #fff; } @media (min-width: 768px)
+    { .info-farms { width: 40%; } } form { padding: 20px; } .info { text-align:
+    justify; } .message { background-color: #e7dddd; display: flex; width: 100%;
+    border-radius: 10px; line-height: 25px; } .subMessage { padding: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; font-style:
+    normal; text-align: justify; color: #835a3e; font-weight: 400; font-size:
+    20px; } .buttons { display: flex; justify-content: center; background-color:
+    #eea841; padding: 12px; width: 50%; border: none; border-radius: 10px;
+    color: white; font-weight: bold; cursor: pointer; text-align: center;
+    margin: auto; } .bold { font-weight: bold; text-transform: capitalize; }
+
+  </style>
+  <body>
+    <div class="container">
+      {{{body}}}
+    </div>
+  </body>
+  <script>
+    const addCollaborators=async()=>{ try{ const URLactual =window.location;
+    const res = await axios.post(URLactual); await
+    Swal.fire('Exitoso!',res.data.msg,'success' )}catch(err){ Swal.fire({ icon:
+    'error', title: 'Oops...', text:err.response.data.msg, }) } }
+  </script>
+</html>

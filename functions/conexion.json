@@ -1,0 +1,24 @@
+{
+  "type": "service_account",
+  "project_id": "mi-cafetal-app-de74f",
+  "private_key_id": "90faf75eaaaa36a88c663a2305ca03a49f5429c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCIMJtRowThkdvD\nhSQGD8xxkcGGTeEEPH/nOBhSEB/SFvITJBt+fZQgFiUkotA6miKhrcsWrfxLGDsD\n+JryD8bDdIDBOcmLGRadQdFnbbcimYrU2m59hZHUdd/e/y0HIr5du+pZlN7c8/gi\n9e/345PRc/NYmvCMfMAdoy46OH1gyzoIKtp4ktp7OO1VDMT5lE5mhHbBf6vBniCb\nxdRt/wRYwYi8z30X5BXFoVp9Vm2I9OpLb8t7BOod2OEDXavNyKC6FhyPCGITeCkh\nz/ILxmD8YOSCOFpH++b5GOz2Vy3TmYrMN/nYxGL119e5IrL9wBOjEsRcEy0HzOHk\nmyYsDDuxAgMBAAECggEAALoN42Y4NJtTw7HSJOtmdA9v9dfIqE8T0SHoSq/RwztO\nU4MWL1EYWVIDP8iJzbmf5qKOovJmbeeHxv0sl8TxrbQvuI4mp47L7Wn2qW567kpj\n/7+9ZniA5sarT9vPmC2TPBMIEbTx7/FJx4xMVh2ioiZoT0CvybsWYeZRS09nBZF4\nLwdiUyRO9Ay83lkgv33L7u69VNToULbs+6I/IShpwbDWiTnb4H141moKH4ou0zaX\nxMgR/OtE9bqjAf2PhkKB7mNiE7qotQD23IYG6SHCRJWY0VSOvvLc9kcYAMIOZTF7\nWZ35iKrQYBt5vJO3ZlOXoKq55SJKpBn6psPT4RA+EQKBgQC+9Qys7exi80SePx0h\n4Q5Ax0fA9eQvN5GyVX0DMR4V/UOP+klDcR6zlVJqGOHYt1ciwqVtSzn5/JKU+nJt\nog8RHhJHrxsDj0ZZN0J+v2Y92l/I4hG7Dq1iaQHjvA+xLDT3LqNAuUu22AlVvPKf\nDoceLVdNtZXq3ucLpMI9BzhC9QKBgQC2k/4sngb63vpNNkzCWUVnvPLHmYD9OG4L\nPZBW2vlhUU9YI9HQON9011P6Swks+RtihFLqdv3XZeADObMU2V+A2oEBjxA5M35i\nJcU5qfbJT3xnCL3kqTNOrbar83cRpA3YCnwwCun7dXvK87BYZp4yt8Z0okTePvFO\nQAk2UAC4TQKBgQCWve1Gqf88UZuubFY8A2R0AJyFF9cM6woJxHCOT3zXkPl/s+2X\n3rmEvHC1rnTC1mBj4VIjyAm5bQftsRMZtp+8PIfjrLhfg//dt8C3O7KjSzrn4oZq\nqvh2QjyqoS+mBia9pkRbeKrraPldhG3m39oMGXDcuGbjZRjw2Rw4fvWL7QKBgQCY\nWqafVL8+WRNFmyoyg4wHJQTyyoV4yL4LYzQvRksTimZLhphuyQau2YCaPENL5BOW\nAhWu0dzBAaINDvkBTOMFA1DjnB5NnUq5XAtYMxxcoJeO4xyS0x6daRgmJOQXNG7Y\n+ObosDLQQxkqIm/lVLxuViyk50PQsXVrdsQ5LklrgQKBgAidp2vbvWHgd7J6a8zO\nkzbvZ62TcTfkPkte9D6nx+q+K41c7LGBQ1TG9er4dtwANng7YA3+/NHlDZinfLzr\nsxFv82V7Dou6b0ypH9mO5vBMcj2ZswxPq9FZdRvh8G4ObmViV9Tmxu71MnbL12Su\nfZsFWjZm2D+LDLp0pRS4GtQI\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-eggts@mi-cafetal-app-de74f.iam.gserviceaccount.com",
+  "client_id": "105373231104002603061",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-eggts%40mi-cafetal-app-de74f.iam.gserviceaccount.com",
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ]
+}
